@@ -1,0 +1,64 @@
+{
+  "nonce_options": [
+    {
+      "id": "N01",
+      "label": "🎲 Fresh Random Value",
+      "type": "random",
+      "description": "A newly generated random value used only once. Prevents replay attacks."
+    },
+    {
+      "id": "N02",
+      "label": "🎲 Lightweight Random",
+      "type": "random_light",
+      "description": "A shorter random value suitable for low-power devices."
+    },
+    {
+      "id": "N03",
+      "label": "🎲 High-Entropy Random",
+      "type": "random_strong",
+      "description": "A strong random value with higher entropy for sensitive communication."
+    },
+    {
+      "id": "N04",
+      "label": "⏱️ Current Timestamp",
+      "type": "timestamp",
+      "description": "Uses the current time as a freshness value."
+    },
+    {
+      "id": "N05",
+      "label": "⏱️ Time Window Identifier",
+      "type": "time_window",
+      "description": "Groups messages into short time windows to ensure freshness."
+    },
+    {
+      "id": "N06",
+      "label": "🔢 Message Counter",
+      "type": "counter_message",
+      "description": "A counter that increments with every message."
+    },
+    {
+      "id": "N07",
+      "label": "🔁 Session Counter",
+      "type": "counter_session",
+      "description": "A counter that increments once per session."
+    },
+    {
+      "id": "N08",
+      "label": "⚙️ Device Boot Count",
+      "type": "boot_count",
+      "description": "Derived from the number of times the device has restarted."
+    },
+    {
+      "id": "N09",
+      "label": "🔄 Communication Round ID",
+      "type": "round_id",
+      "description": "Identifies the current interaction round between devices."
+    },
+    {
+      "id": "N10",
+      "label": "🧩 Interaction Cycle ID",
+      "type": "cycle_id",
+      "description": "Represents a complete encrypt-decrypt cycle identifier."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "associated_data_options": [
+    {
+      "id": "AD01",
+      "label": "🔐 Device Identity",
+      "value": "Device_ID",
+      "description": "Identifies which device generated or received the message."
+    },
+    {
+      "id": "AD02",
+      "label": "⏱️ Timestamp",
+      "value": "Timestamp",
+      "description": "Indicates when the message was created or sent."
+    },
+    {
+      "id": "AD03",
+      "label": "📡 Network Route Info",
+      "value": "Route_Info",
+      "description": "Describes how the message travels through the network."
+    },
+    {
+      "id": "AD04",
+      "label": "🌐 Source Address",
+      "value": "Source_Address",
+      "description": "Shows where the message originated from."
+    },
+    {
+      "id": "AD05",
+      "label": "🎯 Destination Address",
+      "value": "Destination_Address",
+      "description": "Shows the intended recipient of the message."
+    },
+    {
+      "id": "AD06",
+      "label": "⚙️ Control Command",
+      "value": "Control_Command",
+      "description": "Specifies that the message carries a command or instruction."
+    },
+    {
+      "id": "AD07",
+      "label": "📊 Sensor Data Context",
+      "value": "Sensor_Data",
+      "description": "Indicates that the message contains sensor measurements."
+    },
+    {
+      "id": "AD08",
+      "label": "🚨 System Alert",
+      "value": "System_Alert",
+      "description": "Marks the message as a warning or alert."
+    },
+    {
+      "id": "AD09",
+      "label": "🛡️ Authentication Context",
+      "value": "Authentication_Request",
+      "description": "Used during authentication or verification processes."
+    },
+    {
+      "id": "AD10",
+      "label": "🔄 Rekey / Update Event",
+      "value": "Key_Update",
+      "description": "Indicates a security or key update operation."
+    }
+  ]
+}
